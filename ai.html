@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tourism Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=satoshi@900&f[]=cabinet-grotesk@700&f[]=author@300,400,700&f[]=nippo@1&f[]=beVietnam-pro@500&f[]=general-sans@200,300,400,500,600,700&f[]=telma@400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b344739b38.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="c-header">
+      <div class="navbar">
+        <div class="nav-right"><a href="index.html">xplore.</a></div>
+        <div class="nav-left">
+          <p>Trips</p>
+          <p>Gallery</p>
+          <a href="about.html"><p>About</p></a>
+          <a href="contact.html"><p>Contact</p></a>
+        </div>
+      </div>
+    </div>
+    <div class="c-img AI-banner">
+        
+      <h1>AI  <span class="us">Trip</span> Planner</h1>
+    </div>
+    <div class="search-cn">
+        <input type="text" class="destofai" placeholder="Destination">
+        <input type="text" class="destofdays" placeholder="Number of Days">
+        <button class="plantripbutton" onclick="generateTravelPlan()">Plan My Trip</button>
+    </div>
+    <div class="loading">
+      <div class="spinnner">
+      
+      </div>
+
+    </div>
+    <div class="plan">
+        <div class="destination">
+            <div class="overlay"></div>
+            <div class="dest-details">
+                <h1 id="img-text">Paris</h1>
+                
+            </div>
+        </div>
+        <div class="place-details">
+             <div class="pl-dt-left">
+                <h1> <i class="fa-solid fa-location-dot"></i> Paris</h1>
+                <div class="days">
+                    <p><i class="fa-solid fa-calendar"></i> 100 days</p>
+                </div>
+                    <p>Paris, the capital of France, is a major European city and a global center for art, fashion, gastronomy, and culture. Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine. Beyond such landmarks as the Eiffel Tower and the Arc de Triomphe, the city is known for its museums, including the Louvre, Musée d'Orsay and Centre Pompidou, as well as its fashion scene.</p>
+                
+             </div>
+             <div class="pl-dt-right">
+                <h1><i class="fa-solid fa-check"></i> Must Visit Places</h1>
+                <ul id="mustvisit">
+                    <li><i class="fa-solid fa-circle-check"></i> Eiffel Tower</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Eiffel Tower</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Eiffel Tower</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Eiffel Tower</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Eiffel Tower</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Eiffel Tower</li>
+                </ul>
+             </div>
+        </div>
+        <div class="pl-card">
+        <div class="pl-dt-card">
+          <h1>Parisian Culture</h1>
+          <p> <i class="fa-regular fa-globe"></i> Parisian culture is a rich blend of history, art, fashion, and gastronomy. Rooted in centuries of tradition, it emphasizes elegance, intellectualism, and refined taste. Parisians take pride in their café culture, often engaging in deep conversations over coffee. The city is a global hub for fashion, with a strong sense of personal style. Art and literature are deeply valued, evident in its world-class museums and literary cafés. Parisians are known for their appreciation of beauty and quality in everything—from food and wine to architecture. Despite a reserved demeanor, they value wit, culture, and meaningful social interaction.
+          </p>
+        </div>
+        <div class="pl-dt-card">
+          <h1>Parisian Culture</h1>
+          <p> <i class="fa-regular fa-globe"></i> Parisian culture is a rich blend of history, art, fashion, and gastronomy. Rooted in centuries of tradition, it emphasizes elegance, intellectualism, and refined taste. Parisians take pride in their café culture, often engaging in deep conversations over coffee. The city is a global hub for fashion, with a strong sense of personal style. Art and literature are deeply valued, evident in its world-class museums and literary cafés. Parisians are known for their appreciation of beauty and quality in everything—from food and wine to architecture. Despite a reserved demeanor, they value wit, culture, and meaningful social interaction.
+          </p>
+        </div>
+        <div class="pl-dt-card">
+          <h1>Parisian Culture</h1>
+          <p> <i class="fa-regular fa-globe"></i> Parisian culture is a rich blend of history, art, fashion, and gastronomy. Rooted in centuries of tradition, it emphasizes elegance, intellectualism, and refined taste. Parisians take pride in their café culture, often engaging in deep conversations over coffee. The city is a global hub for fashion, with a strong sense of personal style. Art and literature are deeply valued, evident in its world-class museums and literary cafés. Parisians are known for their appreciation of beauty and quality in everything—from food and wine to architecture. Despite a reserved demeanor, they value wit, culture, and meaningful social interaction.
+          </p>
+        </div>
+        </div>
+        <div class="pl-dt-travel">
+          
+            <h1>Travel Plans</h1>
+            <div class="itinery">
+              <div class="travel-card-pl">
+                <div class="pl-tr-left"><h1>DAY 01</h1></div>
+              <div class="pl-tr-right">
+                <h2>Iconic Landmarks and Artistic Exploration</h2>
+                <p>Paris is a haven for artistic exploration and iconic sights. From the timeless Eiffel Tower to the majestic Louvre housing the Mona Lisa, the city pulses with creativity. Discover Impressionist treasures at Musée d'Orsay or modern works at Centre Pompidou. Wander Montmartre’s bohemian streets, once home to Picasso, and explore immersive digital art at Atelier des Lumières. Beyond museums, Belleville and Canal Saint-Martin offer vibrant street art. Each corner of Paris tells a story—of art, passion, and history—making it an unforgettable destination for creatives and dreamers alike. Paris isn’t just seen; it’s deeply felt in every frame and brushstroke.</p>
+              </div>
+              
+            </div>
+            </div>
+            
+        </div>
+        </div>
+    </div>
+    
+
+    <div class="footer">
+        <div class="ft-right">
+          <h1>Contact</h1>
+          <p><i class="fa-solid fa-phone"></i> 0556584619</p>
+          <p>
+            <i class="fa-solid fa-location-dot"></i> 
+            8466, Al Farazdaq Street, Riyadh, Saudi Arabia
+          </p>
+          <hr />
+          <p class="coy">Copyright © 2024</p>
+        </div>
+        <div class="ft-mid-right">
+          <p>Great Barrier Reef Adventure</p>
+          <p>Pyramids & Nile Cruise</p>
+          <p>Tuscany COuntryside Escape</p>
+          <p>Tokyo & Kyoto Discovery</p>
+        </div>
+        <div class="ft-mid-left">
+          <h1>Packages</h1>
+          <p>New York City Explorer</p>
+          <p>Bali Island Retreat</p>
+          <p>Parisan Dreams</p>
+          <p>Golden Triangle Tour</p>
+        </div>
+        <div class="ft-left">
+          <h1>Discover</h1>
+          <p>About Us</p>
+          <p>Trip Packages</p>
+          
+          <p>Licenses</p>
+        </div>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/ScrollTrigger.min.js"></script>
+      <script src="ai.js"></script>
+      <script src="config.js"></script>
+      <script src="unslapsh.js"></script>
+    
+    </body>
+  </html>
+  </body>
+</html>
